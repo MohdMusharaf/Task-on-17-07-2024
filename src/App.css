@@ -1,38 +1,122 @@
-.App {
+
+
+.head{
+  margin-top: 50px;
   text-align: center;
+  justify-self: center;
+  
+}
+.para{
+  font-size: medium;
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.speed{
+  margin-top: 60px;
+  margin-left: 500px;
+  text-align: center;
+  justify-self: center;
+  background-image: url("./code/image/meter.png");
+  width: 500px;
+  height: 200px;
+  background-position: center;
+ padding-top: 200px;
+ color: yellow;
+ font-size: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.acceralte{
+  padding: 10px 10px 10px 10px;
+  background-color: blue;
+  border: none;
+  outline: none;
+  margin-right: 30px ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fruits{
+  margin-top: 50px;
+  text-align: center;
+  justify-self: center;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 600;
+ background-color: rgb(50, 48, 48);  
+ padding-bottom: 30px;
+}
+
+.mango{
+  width: 200px;
+  height: 200px;
+  
+}
+
+.friutDiv{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-left: 490px;
+  text-align: center;
+  justify-self: center;
+}
+
+.subscribe{
+  margin-top: 50px;
+  background-color: rgb(146, 37, 37);
+  text-align: center;
+  justify-self: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.show{
+  display: flex;
+  margin-left: 500px;
+}
+.laseBtn{
+
+  margin-left: 200px;
+}
+.paraHidshow{
+  width: 100px;
+  height: 50px;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: rgb(212, 167, 19);
+}
+
+.linear{
+  background: linear-gradient(to top, #ff7e5f 50%, #feb47b);
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+
+.textRabdom{
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.paraRandom{
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.btnButton{
+  padding: 10px 10px 10px 10px;
+  border: none;
+  outline: none;
+  background-color: blue;
   color: white;
+  font-size: medium;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginlogout{
+  background: linear-gradient(to top,blue,white);
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin-left: 500px;
+  margin-top: 50px;
 }
