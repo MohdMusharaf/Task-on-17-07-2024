@@ -120,3 +120,165 @@
   margin-left: 500px;
   margin-top: 50px;
 }
+.imageSearch{
+  width: 200px;
+  height: 200px;
+  margin-right: 100px;
+
+}
+
+.flexDisplay{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  padding-left: 90px;
+  margin-left: 400px;
+  margin-right: 370px;
+
+  background: linear-gradient(to top,white,rgb(0, 0, 0));
+ 
+  
+  
+  
+}
+
+.inputSearch{
+  padding: 10px 50px 10px 10px;
+  width: 500px;
+}
+.fontDestina{
+  margin-left: -100px;
+}
+
+.addAmountDiv{
+  text-align: center;
+  justify-content: center;
+}
+
+.addAmountMiddle{
+  margin-left: 500px;
+  background:linear-gradient( rgb(48, 94, 194),rgb(60, 137, 162));
+  width: 400px;
+  height: 350px;
+  padding: 100px 50px 0px 50px;
+  
+}
+.scircle{
+  border: 3px solid blue;
+  padding: 10px 15px ;
+  border-radius: 50px 50px 50px 50px  ;
+  background-color: azure;
+  font-size: larger;
+  font-weight: 600;
+  margin-right: 50px;
+}
+.circleAmount{
+  margin-top: 30px;
+}
+.balance{
+  
+  font-weight: bolder;
+  color: rgb(150, 145, 145);
+  font-size: 20px;
+}
+.withdraw{
+  
+  font-weight: bolder;
+  font-size: 20px;
+}
+.buttonAmount{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 50px;
+  
+}
+.amountBtn{
+  padding: 5px 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.exact{
+  padding: 5px 33px;
+}
+.displayAmount{
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 50px;
+}
+
+/* Google Search */
+
+.googleSearch{
+  width: 800px;
+  height: 500px;
+  background-color: antiquewhite;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 400px;
+}
+.googleLogo{
+  width: 300px;
+  height: 200px;
+  
+}
+.googleSearchBar{
+  outline: none;
+  border: none;
+  width: 400px;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.unorderSearch{
+  display: flex;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 380px;
+  height: 40px;
+  text-align: left;
+  list-style-type: none;
+  margin-top: -18px;
+  margin-left: 160px;
+}
+.arrowSearch{
+  width: 20px;
+  height: 20px;
+  margin-top: 0px;
+  
+  padding-bottom: 0px;
+}
+.nameSearch{
+  width: 350px;
+}
+
+/* calculator */
+
+.calculator{
+  margin-top: 100px;
+  margin-left: 400px;
+  color: rgb(81, 255, 0);
+  background :url('https://www.freecodecamp.org/news/content/images/size/w2000/2021/08/count.jpg');
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+.calculatorPara{
+  font-size: 32px;
+  font-weight: 600;
+}
+.paraDivCal{
+  width: 200px;
+  height: 150px;
+  
+}
+.numberLength{
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 30px;
+}

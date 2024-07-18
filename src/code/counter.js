@@ -11,7 +11,6 @@ function Counter() {
       <h2 >the Button has been Clicked {count} times</h2>
       <p className='para'> click the button to increase the count</p>
       <button onClick={() => setCount(count + 1)}>Click me</button>
-      
     </div>
   );
 }

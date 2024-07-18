@@ -6,12 +6,24 @@ import Subscribe from './code/subscribe.js';
 import ShowHide from './code/showhide.js';
 import Random from './code/random.js';
 import LoginLogout from './code/loginout.js';
+import RandomNum from './code/randomNum.js';
+import DeleteTodo from './code/deleteTodo.js';
+import DestinationSearch from './code/destinaSearch.js';
+import AddAmount from './code/addAmount.js';
+import GoogleSearch from './code/gooleSearch.js';
+import NumLetter from './code/numLetter.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <NumLetter />
+        <GoogleSearch />
+        <AddAmount />
+        < DeleteTodo />
+        <DestinationSearch />
+        <RandomNum />
       <Counter />
       <Speed />
       <Fruit />
